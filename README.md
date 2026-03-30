@@ -1,4 +1,3 @@
-# AWS Docker Flask Project
 
 ## Overview
 This project demonstrates deployment of a Flask web application on AWS using Docker.
@@ -28,9 +27,6 @@ This project demonstrates deployment of a Flask web application on AWS using Doc
 
 3. Run container:
    docker run -d -p 5000:5000 flask-app
-
-## Screenshots
-(Add screenshots here)
 
 ## Learnings
 - Learned Docker containerization
