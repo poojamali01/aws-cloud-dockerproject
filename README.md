@@ -26,7 +26,7 @@ This project demonstrates deployment of a Flask web application on AWS using Doc
    docker build -t flask-app .
 
 3. Run container:
-   docker run -d -p 5000:5000 flask-app
+   docker run -d -p 8080:8080 flask-app
 
 ## Learnings
 - Learned Docker containerization
