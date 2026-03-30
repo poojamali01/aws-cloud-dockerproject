@@ -4,11 +4,10 @@ from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = 'backend'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '1nd1a'
-app.config['MYSQL_DB'] = 'MYUsers'
-
+app.config['MYSQL_HOST'] = 'myprojectdb.cf68ccgioatf.eu-north-1.rds.amazonaws.com'
+app.config['MYSQL_USER'] = 'admin'
+app.config['MYSQL_PASSWORD'] = 'Poojamali98!'
+app.config['MYSQL_DB'] = 'myprojectdb'
 mysql = MySQL(app)
 
 @app.route('/', methods=['GET', 'POST'])
